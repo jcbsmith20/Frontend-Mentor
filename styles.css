@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    height: 550px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.profile-container{
+   display: flex;
+   justify-content: center;
+   height: 120px;
+   margin-bottom: 0;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+    height: 100px;
+
+}
+
+#name, #location, #bio{
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+#bio{
+    font-weight: 400;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.list-item{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-container{
+    background-color: rgb(38, 42, 42);
+    margin: 10px;
+    height: 40px;
+    width: 275px;
+    border-radius: 6px;
+}
+
+#github, #frontendmentor, #linkedin, #twitter, #instagram{
+    margin: 12px;
+}
+
+li:hover{
+    background-color: hsl(75, 94%, 30%);
+}
+
+
+.attribution {
+      font-size: 11px; 
+      text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
